@@ -1,0 +1,50 @@
+body {
+  background-color: gray;
+}
+
+h1 {
+  color: red;
+  font-family: arial;
+}
+.main {
+  display: inline-flex;
+  gap: 30px;
+  margin: 18px;
+}
+.square-box {
+  box-sizing: border-box;
+  width: 350px;
+  height: 600px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.square-box img {
+  width: 320px;
+  height: 250px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 0px;
+}
+.square-box p {
+  margin: 15px;
+  margin-bottom: 25px;
+  height: 190px;
+  overflow: hidden;
+}
+#button a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 10px;
+  font-family: arial;
+}
+#button a:hover {
+  background-color: red;
+}
